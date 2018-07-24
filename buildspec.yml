@@ -12,7 +12,7 @@ phases:
       - mv target/newjenkins-0.0.1-SNAPSHOT.war newjenkins-0.0.1-SNAPSHOT.war
 artifacts:
   files:
-    - hw5-backend-0.0.1-SNAPSHOT.war
+    - newjenkins-0.0.1-SNAPSHOT.war
     - .ebextensions/**/*
 eb_codebuild_settings:
   CodeBuildServiceRole: AWS-CodePipeline-Service
